@@ -2,13 +2,13 @@
 
 ## Description
 
-This project is to demonstrate the 
-
-See below for the screenshot of the product.
-
-![portfolio demo](./Assets/screenshotREADME.jpg)
+This project is a password generator utilizing javascript. Press the generate password button, follow the prompts for if you want uppercase, lowercase, special characters, or numbers.
 
 URL: https://craymorgana.github.io/passwordGenerator/
+
+See below for the screenshot of the product.
+![portfolio demo](./Assets/screenshot.jpg)
+
 
 ## Installation
 

@@ -40,6 +40,10 @@ function generatePassword(){
    var specialBool = window.confirm("Do you want special characters?");
    var numberBool = window.confirm("Do you want numbers?");
   
+   if(!lowerBool && !upperBool && !specialBool && !numberBool){
+    alert("You must select at least one choice.")
+    return;
+   }
 
 // combine arrays for each confirmation
   switch(true){
@@ -116,25 +120,9 @@ function generatePassword(){
     var RANDOM = Math.floor((Math.random() * passwordChoice.length))
     newpassword.push(passwordChoice[RANDOM]);
   }
-  console.log('newpassword :>> ', newpassword);
   password = newpassword.join("");
   return password;
 }
 
-
-
-
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-
-
-/*
-
-if all true 
-
-
-
-
-*/
